@@ -46,7 +46,7 @@ public class WeatherService {
 
             return response;
         } catch (Exception e) {
-            log.error("Error getting weather data for city: {}", city, e.getMessage());
+            log.error("Error getting weather data for city: {}, {}", city, e.getMessage());
             throw new RuntimeException("Unable to fetch weather data for " + city, e);
         }
     }
