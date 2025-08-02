@@ -3,3 +3,6 @@ spring.application.name=weatherapi
 openweather.api.key=
 openweather.api.base-url=http://api.openweathermap.org/data/2.5/weather
 openweather.api.default-units=metric
+
+spring.cache.type=caffeine
+spring.cache.caffeine.spec=maximumSize=1000,expireAfterWrite=12h
