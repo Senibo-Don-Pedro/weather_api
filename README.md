@@ -349,3 +349,6 @@ spring.cache.caffeine.spec=maximumSize=1000,expireAfterWrite=12h
 ---
 
 **Happy Coding! 🌤️**
+
+
+**Project page URL:** [https://roadmap.sh/projects/weather-api-wrapper-service](https://roadmap.sh/projects/weather-api-wrapper-service)
