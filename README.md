@@ -4,6 +4,9 @@
 
 The Weather API is a robust Spring Boot application that provides real-time weather information for cities worldwide. It integrates seamlessly with the OpenWeatherMap API to fetch current weather data and utilizes Swagger UI for interactive API documentation. The application features advanced caching mechanisms using Caffeine to optimize performance and reduce API calls.
 
+
+**Project page URL:** [https://roadmap.sh/projects/weather-api-wrapper-service](https://roadmap.sh/projects/weather-api-wrapper-service)
+
 ## ✨ Features
 
 - 🌤️ Retrieve current weather data by city name
@@ -349,6 +352,3 @@ spring.cache.caffeine.spec=maximumSize=1000,expireAfterWrite=12h
 ---
 
 **Happy Coding! 🌤️**
-
-
-**Project page URL:** [https://roadmap.sh/projects/weather-api-wrapper-service](https://roadmap.sh/projects/weather-api-wrapper-service)
